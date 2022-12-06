@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        IdAndPasswords idAndPasswords= new IdAndPasswords();
-        LoginPage loginPage = new LoginPage(idAndPasswords.getLoginInfo());
+    public static void main(final String[] args) {
+        final IdAndPasswords idAndPasswords= new IdAndPasswords();
+        new LoginPage(idAndPasswords.getLoginInfo());
 
     }
 }
